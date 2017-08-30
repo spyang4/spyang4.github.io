@@ -11,76 +11,112 @@
 </head>
 <body>
 <header>
+    <div class="icon hidden-md-down">
+        <div class="hamburger"></div>
+    </div>
 
-
-        <div class="icon hidden-md-down">
-            <div class="hamburger"></div>
-        </div>
-
-<div class="row primary-nav hidden-md-down">
-    <div class="col">
-            <a class="menu-section" href="#">
+    <div class="row primary-nav hidden-md-down">
+        <div class="col">
+            <a class="menu-section" href="#about-me">
                 <div class="section-icon hidden-xs-down">
                     <img src="images/face.png" width="80px" height="80px">
                 </div>
                 <h3 class="text-white">ABOUT ME</h3>
             </a>
-    </div>
-    <div class="col">
-            <a class="menu-section" href="#">
+        </div>
+        <div class="col">
+            <a class="menu-section" href="#my-experience">
                 <div class="section-icon hidden-xs-down">
                     <img src="images/skills.png" width="80px" height="80px">
                 </div>
-                <h3 class="text-white">MY SKILLS</h3>
+                <h3 class="text-white">MY EXPERIENCE</h3>
             </a>
-    </div>
-    <div class="col sharing-section">
-        <a class="row" href="https://www.linkedin.com/in/susan-yang-236b40a4/">
-            <img src="images/In.png" width="50px" height="40px">
-        </a>
-        <a class="row" href="spyang4@wisc.edu">
-            <img src="images/envelope.png" width="40px" height="40px">
-        </a>
-        <a class="row" href="#">
-            <img src="images/paper.png" width="40px" height="40px">
-        </a>
-    </div>
-</div>
-    <div>
-        <h1 class="display-1 text-center text-white my-name">SUSAN YANG</h1>
-        <h2 class="text-center text-white">ENGINEER. LEADER. STUDENT.</h2>
-
+        </div>
+        <div class="col sharing-section">
+            <a class="row" href="https://www.linkedin.com/in/susan-yang-236b40a4/">
+                <img src="images/In.png" width="50px" height="40px">
+            </a>
+            <a class="row" href="mailto:spyang4@wisc.edu">
+                <img src="images/envelope.png" width="40px" height="40px">
+            </a>
+            <a href="myresume.pdf" class="row">
+                <img src="images/paper.png" width="40px" height="40px">
+            </a>
+        </div>
     </div>
 
 </header>
 <div class="container">
-    <div class="about-me">
-<h3 class="display-3 text-center text-white">ABOUT ME</h3>
-    <div class="row">
-        <div class="col-sm-4">
-            <figure class="figure">
-            <img src="images/castle.jpg" class="img-fluid rounded">
-            </figure>
-        </div>
-        <div class="col-sm-6">
-            <p class="lead text-white">
-                Hello! I'm studying Computer Engineering and Computer Science at the University of Wisconsin - Madison.
-                Placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder.
-            </p>
+    <div id="about-me">
+        <h3 class="display-3 text-center text-white">About Me</h3>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="text-center">
+                    <figure class="figure">
+                        <img src="images/sweme.jpg" class="img-fluid rounded-circle">
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <p class="lead text-white">
+                    Hello and welcome to my website! Four years ago, I came to the
+                    University of Wisconsin – Madison with no clue what kind of engineering
+                    major I would follow. I ended up in Computer Engineering but still had no
+                    idea that I would become the president of the UW-Madison section of the
+                    Society of Women Engineers, be able to build a program that can navigate a
+                    robot autonomously through a maze, and fall in love with web development.
+                    I’m now a fifth year senior—graduating this December—in Computer Engineering
+                    and Computer Science, and I am proud to say that I have learned how to be an
+                    engineer and a leader throughout my time as a student.
+                </p>
+            </div>
+
         </div>
 
     </div>
+</div>
+<div id="my-experience">
+    <h3 class="display-3 text-center experience">My Experience</h3>
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 20rem;">
+                <a href="myresume.pdf">
+                    <img class="card-img-top img-fluid" src="images/resume.png" alt="Card image cap">
+                </a>
+                <div class="card-block">
+                    <h4 class="card-title">My resume</h4>
+                    <p class="card-text">Take a look at my resume for details on my experiences.</p>
+                    <a href="myresume.pdf" class="card-link">My resume</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 20rem;">
+                <a href="http://gdoriental.com/">
+                    <img class="card-img-top img-fluid" src="images/gd.png" alt="Card image cap">
+                </a>
+                <div class="card-block">
+                    <h4 class="card-title">Good Deal Oriental Foods</h4>
+                    <p class="card-text">This is the website I designed and built for my family's supermarket.</p>
+                    <a href="http://gdoriental.com/" class="card-link">My work</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <h3 class="display-3 text-center text-white">MY SKILLS</h3>
-    <div class="row skills">
-        <div class="col">
-            <img src="images/envelope.png" width="80px" height="80px">
+</div>
+
+<div class="container" id="contact">
+    <h3 class="display-3 text-center text-white">Contact Me</h3>
+    <div class="row text-center contact-icons">
+        <div class="col-sm-4">
+            <a href="mailto:spyang4@wisc.edu">
+                <img src="images/envelope.png" width="80px" height="80px">
+            </a>
         </div>
-        <div class="col">
-            <img src="images/skills.png" width="80px" height="80px">
-        </div>
-        <div class="col">
-            <img src="images/envelope.png" width="80px" height="80px">
+        <div class="col-sm-4">
+            <a href="https://www.linkedin.com/in/susan-yang-236b40a4/">
+                <img src="images/In.png" width="70px" height="55px">
+            </a>
         </div>
     </div>
 </div>
