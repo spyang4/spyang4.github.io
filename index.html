@@ -13,11 +13,11 @@
 <header>
 
 
-        <div class="icon">
+        <div class="icon hidden-md-down">
             <div class="hamburger"></div>
         </div>
 
-<nav class="row align-items-center primary-nav">
+<div class="row primary-nav hidden-md-down">
     <div class="col">
             <a class="menu-section" href="#">
                 <div class="section-icon hidden-xs-down">
@@ -45,23 +45,34 @@
             <img src="images/paper.png" width="40px" height="40px">
         </a>
     </div>
-</nav>
-    <div class="parallax-1">
-        <h1 class="display-1 text-center my-name">SUSAN YANG</h1>
+</div>
+    <div>
+        <h1 class="display-1 text-center text-white my-name">SUSAN YANG</h1>
+        <h2 class="text-center text-white">ENGINEER. LEADER. STUDENT.</h2>
 
     </div>
 
 </header>
-<div class="parallax-2">
-<h3 class="display-3 text-center">ABOUT ME</h3>
-<p class="lead text-start">
-    Hello! I'm studying Computer Engineering and Computer Science at the University of Wisconsin - Madison.
-    Placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder.
-</p>
-</div>
 <div class="container">
-    <h3 class="display-3 text-center">MY SKILLS</h3>
-    <div class="row align-items-end skills">
+    <div class="about-me">
+<h3 class="display-3 text-center text-white">ABOUT ME</h3>
+    <div class="row">
+        <div class="col-sm-4">
+            <figure class="figure">
+            <img src="images/castle.jpg" class="img-fluid rounded">
+            </figure>
+        </div>
+        <div class="col-sm-6">
+            <p class="lead text-white">
+                Hello! I'm studying Computer Engineering and Computer Science at the University of Wisconsin - Madison.
+                Placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder.
+            </p>
+        </div>
+
+    </div>
+    </div>
+    <h3 class="display-3 text-center text-white">MY SKILLS</h3>
+    <div class="row skills">
         <div class="col">
             <img src="images/envelope.png" width="80px" height="80px">
         </div>
@@ -76,6 +87,6 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/tether.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>
+<script src="js/scripts.js" defer></script>
 </body>
 </html>

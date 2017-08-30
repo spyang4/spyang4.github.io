@@ -1,49 +1,26 @@
 body{
-    background: #000;
+    background: #004059;
+    overflow: auto;
 }
 header{
-    height: 100px;
+    height: 500px;
     width: 100%;
+    background: #006991;
 }
-h4.display-4 {
+.my-name{
+    padding-top: 180px;
+    text-shadow: 2px 2px rgba(0,0,0,.2);
+}
+h3.display-3 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-p.lead{
-    padding-left: 150px;
-    padding-right: 700px;
-}
+
 .skills{
     opacity: .5;
 }
-/*.parallax-1 {
-     The image used
-    background-color: #000;
-
-    /* Set a specific height
-    height: 300px;
-
-    /* Create the parallax scrolling effect
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
-/* .parallax-2 {
-    The image used
-    background-image: url("../images/sweme.jpg");
-
-    /* Set a specific height
-    height: 600px;
-
-    /* Create the parallax scrolling effect
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
-nav.primary-nav {
-    background-color: #000;
+div.primary-nav {
+    background-color: #000d13;
     opacity: .85;
     width: 100%;
     position: absolute;
@@ -51,20 +28,20 @@ nav.primary-nav {
     top: -250px;
     transition: all 500ms linear;
 }
-nav.primary-nav .sharing-section{
+div.primary-nav .sharing-section{
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 20px 20px;
     opacity: .75;
 }
-nav.primary-nav a.menu-section {
+div.primary-nav a.menu-section {
     margin-top: 50px;
     margin-bottom: 50px;
     border-right: 1px solid rgba(255, 255, 255, 0.2);
     display: inline-block;
     padding: 20px 100px 20px;
 }
-.icon.active ~ nav.primary-nav {
+.icon.active ~ div.primary-nav {
     top: 0px;
     transition: all 500ms linear;
 }
