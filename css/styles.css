@@ -117,10 +117,16 @@ div.primary-nav a.menu-section {
     transform: rotate(135deg);
 }
 @media (min-width: 0px)  {
+    .experience{
+        padding: 10px;
+    }
+
+}
+@media (min-width: 0px)  {
     #my-experience{
         background-color: #fff;
         width: 100%;
-        padding:  10px;
+        padding: 20px;
     }
 }
 @media (min-width: 576px)  {
