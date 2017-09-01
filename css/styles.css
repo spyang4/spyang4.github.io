@@ -116,40 +116,13 @@ div.primary-nav a.menu-section {
     top: 0;
     transform: rotate(135deg);
 }
-@media (min-width: 0px)  {
-    .experience{
-        padding: 10px;
-    }
-
+#my-experience{
+    background-color: #fff;
+    width: 100%;
 }
-@media (min-width: 0px)  {
-    #my-experience{
-        background-color: #fff;
-        width: 100%;
-        padding: 20px;
-    }
-}
-@media (min-width: 576px)  {
-    #my-experience{
-        background-color: #fff;
-        width: 100%;
-        padding: 20px 150px;
-    }
-}
-
 .experience{
     opacity: .5;
 }
 #contact{
     padding-bottom: 30px;
-}
-@media (min-width: 0px)  {
-    .contact-icons{
-        padding-left: 30px;
-    }
-}
-@media (min-width: 768px)  {
-    .contact-icons{
-        padding-left: 300px;
-    }
 }
