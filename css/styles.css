@@ -1,6 +1,5 @@
 body{
     background: #ff9f8e;
-    overflow: auto;
 }
 @media (min-width: 0px)  {
     header{
@@ -34,6 +33,7 @@ h3.display-3 {
 }
 
 div.primary-nav {
+    margin: 0;
     background-color: #B82106;
     opacity: .85;
     width: 100%;
